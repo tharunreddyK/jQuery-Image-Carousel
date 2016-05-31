@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title of Page -->
+    <title>Image Carousel</title>
+
+    <!-- meta for description of web page and the keywords associated -->
+    <meta charset="UTF-8">
+    <meta name = "author" content = "Tharun Reddy">
+    <meta name = "description" content = "Image Carousel Built by Tharun Reddy">
+    <meta name = "keywords" content="html/text">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" type="text/css" href="./ImageCarousel.css" />
+
+    <!-- Reference Libraries -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="./ImageCarousel.js"></script>
+
+    <!-- Favorites Icon (Favicon) -->
+    <link rel='shortcut icon' type='image/png' href='./favicon.ico'>
+</head>
+<body id="body">
+<div class="container-fluid">
+    <div class="col-xs-12">
+        <br><br>
+    <div id="Heading" class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6"><h1><span class="glyphicon glyphicon-eye-open" aria-hidden=true></span>  Image Carousel Using jQuery</h1></div>
+        <div class="col-xs-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+            <div id="slider-wrapper">
+                <div id="slider" id="map-part">
+                    <div class="myImages">
+                        <img id="i1" src="images/image1.jpg" alt="image1.jpg" width="600" height="400" />
+                        <div class="caption">The Starry Night</div>
+                    </div>
+
+                    <div class="myImages" >
+                        <img id="i2" src="images/image2.jpg" alt="image2.jpg" width="600" height="400" />
+                        <div class="caption">Irises</div>
+                    </div>
+                    <div class="myImages">
+                        <img id="i3" src="images/image3.jpg" alt="image3.jpg" width="600" height="400" />
+                        <div class="caption">Starry Night over Rhone</div>
+                    </div>
+
+                    <div class="myImages">
+                        <img id="i4" src="images/image4.jpg" alt="image4.jpg" width="600" height="400" />
+                        <div class="caption">The Night Cafe</div>
+                    </div>
+
+                    <div class="myImages">
+                        <img id="i5" src="images/image5.jpg" alt="image5.jpg" width="600" height="400"/>
+                        <div class="caption">The Yellow House</div>
+                    </div>
+
+                    <div class="myImages">
+                        <img id="i6" src="images/image6.jpg" alt="image6.jpg" width="600" height="400" />
+                        <div class="caption">The Wheat Field</div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="nav"></div>
+
+
+                <span id="previousButton" class="glyphicon glyphicon-chevron-left" aria-hidden=true></span>
+
+
+                <span id="nextButton" class="glyphicon glyphicon-chevron-right" aria-hidden=true></span>
+
+
+            <div id="button1">
+                <button type="button" class="btn btn-xs btn-default">1</button>
+            </div>
+
+            <div id="button2">
+                <button type="button" class="btn btn-xs btn-default">2</button>
+            </div>
+
+            <div id="button3">
+                <button type="button" class="btn btn-xs btn-default">3</button>
+            </div>
+
+            <div id="button4">
+                <button type="button" class="btn btn-xs btn-default">4</button>
+            </div>
+
+            <div id="button5">
+                <button type="button" class="btn btn-xs btn-default">5</button>
+            </div>
+
+            <div id="button6">
+                <button type="button" class="btn btn-xs btn-default">6</button>
+            </div>
+        </div>
+
+        <div class="col-xs-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <br><br><br><br>
+            <p>
+                <h5><small>Made with <span class="glyphicon glyphicon-heart" aria-hidden=true></span> by Tharun Reddy</small></h5>
+            </p>
+        </div>
+        <div class="col-xs-2"></div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
